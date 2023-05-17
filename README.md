@@ -84,6 +84,7 @@ else:
 ```
 
 ### Điều kiện lồng nhau
+
 - Một điều kiện cũng có thể được lồng trong một điều kiện khác. (Đây lại là chủ đề tương tự về khả năng kết hợp!) Chúng ta có thể viết ví dụ trước như sa
 
 ```
@@ -178,7 +179,7 @@ bird
 
 - range(): giúp chúng ta có thể tạo ra một list một cách nhanh chóng. Với cú pháp:
 - Với cú pháp này tạo ra 1 list bắt đầu từ 0 liên tục và kết thúc khi có đủ elementNumbers:
- - Hàm range() có 3 tham số:
+- Hàm range() có 3 tham số:
   + start: số nguyên bắt đầu, chuỗi sẽ bắt đầu với tham số này. Giá trị mặc định là 0.
   + stop: số nguyên kết thúc, chuỗi sẽ kết thúc với tham số này.
   + step: số nguyên xác định khoảng cách giữa các số bên trong chuỗi. Giá trị mặc định là 1.
@@ -197,6 +198,7 @@ bird
  ```
  
  ## Vòng lặp với số lần không xác định (while)
+ 
  -vòng lặp while trong python tương tự trong các ngôn ngữ khác, lặp khi thỏa mãn điều kiện cho trước. Cú pháp:
  
  ```
