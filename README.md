@@ -197,4 +197,31 @@ bird
  ```
  
  ## Vòng lặp với số lần không xác định (while)
+ -vòng lặp while trong python tương tự trong các ngôn ngữ khác, lặp khi thỏa mãn điều kiện cho trước. Cú pháp:
  
+ ```
+ while [điều kiện]:
+     [khối lệnh]
+ ```
+ 
+ - break và continue:break cho phép thoát khỏi vòng lặp, còn continue cho phép bỏ qua lượt chạy hiện tại của vòng lặp và chạy tiếp.
+
+ví dụ:
+
+```
+i = 0
+while (i <= 10):
+	print(i)
+	if i == 5:
+		break
+	i += 1
+
+for i in ‘i am a robot’:
+	if i == ‘ ’:
+		continue
+	print(i, end=’’)
+```
+
+#  Kết luận
+
+Với bài viết trên đây, hy vọng các bạn sẽ có thể làm quen được với cấu trúc điều kiện và vòng lặp trong ngôn ngữ Python - hai cấu trúc được sử dụng thường xuyên không chỉ trong Python mà còn ở rất nhiều các ngôn ngữ lập trình khác. Các bạn có thể tự suy nghĩ để áp dụng cấu trúc điều kiện và vòng lặp này để viết một số chương trình đơn giản
